@@ -1,0 +1,65 @@
+{
+  "_note": "Placeholder vials for DRY-RUN (action=test) inventory testing only. No real chemicals mixed. Add these objects into the 'vials' array of electrolyte_inventory.json.",
+  "placeholder_vials": [
+    {
+      "capacity_ul": 1500.0,
+      "current_electrolyte": {
+        "a": {}, "local_smiles": {"dimethyl sulfoxide": "CS(=O)C"},
+        "name": "dimethyl sulfoxide", "s": {}, "use_pubchem": true,
+        "v": {"dimethyl sulfoxide": 1.0}, "volume": 1500.0
+      },
+      "low_volume_threshold_ul": 120.0, "previous_electrolyte": null,
+      "volume_ul": 1500.0, "x_ind": 0, "y_ind": 4
+    },
+    {
+      "capacity_ul": 1500.0,
+      "current_electrolyte": {
+        "a": {}, "local_smiles": {"N,N-dimethylformamide": "CN(C)C=O"},
+        "name": "N,N-dimethylformamide", "s": {}, "use_pubchem": true,
+        "v": {"N,N-dimethylformamide": 1.0}, "volume": 1500.0
+      },
+      "low_volume_threshold_ul": 120.0, "previous_electrolyte": null,
+      "volume_ul": 1500.0, "x_ind": 0, "y_ind": 5
+    },
+    {
+      "capacity_ul": 1500.0,
+      "current_electrolyte": {
+        "a": {}, "local_smiles": {"propylene carbonate": "CC1COC(=O)O1"},
+        "name": "propylene carbonate", "s": {}, "use_pubchem": true,
+        "v": {"propylene carbonate": 1.0}, "volume": 1500.0
+      },
+      "low_volume_threshold_ul": 120.0, "previous_electrolyte": null,
+      "volume_ul": 1500.0, "x_ind": 1, "y_ind": 1
+    },
+    {
+      "capacity_ul": 1500.0,
+      "current_electrolyte": {
+        "a": {}, "local_smiles": {"sulfolane": "O=S1(=O)CCCC1"},
+        "name": "sulfolane", "s": {}, "use_pubchem": true,
+        "v": {"sulfolane": 1.0}, "volume": 1500.0
+      },
+      "low_volume_threshold_ul": 120.0, "previous_electrolyte": null,
+      "volume_ul": 1500.0, "x_ind": 1, "y_ind": 2
+    },
+    {
+      "capacity_ul": 1500.0,
+      "current_electrolyte": {
+        "a": {}, "local_smiles": {"acetonitrile": "CC#N"},
+        "name": "acetonitrile", "s": {}, "use_pubchem": true,
+        "v": {"acetonitrile": 1.0}, "volume": 1500.0
+      },
+      "low_volume_threshold_ul": 120.0, "previous_electrolyte": null,
+      "volume_ul": 1500.0, "x_ind": 1, "y_ind": 3
+    },
+    {
+      "capacity_ul": 1500.0,
+      "current_electrolyte": {
+        "a": {}, "local_smiles": {"water": "O"},
+        "name": "0.5M TBAClO4 in water", "s": {"TBAClO4": 0.5}, "use_pubchem": true,
+        "v": {"water": 1.0}, "volume": 1500.0
+      },
+      "low_volume_threshold_ul": 120.0, "previous_electrolyte": null,
+      "volume_ul": 1500.0, "x_ind": 1, "y_ind": 4
+    }
+  ]
+}

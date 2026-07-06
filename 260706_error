@@ -1,0 +1,46 @@
+(lab_venv) yuanjian@rasp5-hobbs:~$ ^[[200~ros2 launch battery_lab_bringup out_rasp.launch.py
+ros2: command not found
+(lab_venv) yuanjian@rasp5-hobbs:~$ ros2 launch battery_lab_bringup out_rasp.launch.py
+[INFO] [launch]: All log files can be found below /home/yuanjian/.ros/log/2026-07-06-14-01-50-230798-rasp5-hobbs-1754664
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [usb_cam_node_exe-1]: process started with pid [1754682]
+[INFO] [video0 --set-ctrl=white_balance_automatic=1 --set-ctrl=focus_automatic_continuous=0 --set-ctrl=focus_absolute=255-2]: process started with pid [1754683]
+[INFO] [video0 --set-ctrl=white_balance_automatic=1 --set-ctrl=focus_automatic_continuous=0 --set-ctrl=focus_absolute=255-2]: process has finished cleanly [pid 1754683]
+[usb_cam_node_exe-1] [INFO] [1783364510.574902733] [tower_usb_cam]: camera_name value: my_tower_cam
+[usb_cam_node_exe-1] [WARN] [1783364510.575024326] [tower_usb_cam]: framerate: 30.000000
+[usb_cam_node_exe-1] [INFO] [1783364510.588836170] [tower_usb_cam]: using default calibration URL
+[usb_cam_node_exe-1] [INFO] [1783364510.589061615] [tower_usb_cam]: camera calibration URL: file:///home/yuanjian/.ros/camera_info/my_tower_cam.yaml
+[usb_cam_node_exe-1] [ERROR] [1783364510.589347579] [camera_calibration_parsers]: Unable to open camera calibration file [/home/yuanjian/.ros/camera_info/my_tower_cam.yaml]
+[usb_cam_node_exe-1] [WARN] [1783364510.589620191] [tower_usb_cam]: Camera calibration file /home/yuanjian/.ros/camera_info/my_tower_cam.yaml not found
+[usb_cam_node_exe-1] [INFO] [1783364510.593355797] [tower_usb_cam]: Starting 'my_tower_cam' (/dev/video0) at 640x480 via mmap (yuyv) at 30 FPS
+[usb_cam_node_exe-1] [swscaler @ 0xaaaaddaaf980] No accelerated colorspace conversion found from yuv422p to rgb24.
+[usb_cam_node_exe-1] This device supports the following formats:
+[usb_cam_node_exe-1] 	Motion-JPEG 640 x 480 (30 Hz)
+[usb_cam_node_exe-1] 	Motion-JPEG 1600 x 896 (30 Hz)
+[usb_cam_node_exe-1] 	Motion-JPEG 1280 x 720 (30 Hz)
+[usb_cam_node_exe-1] 	Motion-JPEG 1024 x 768 (30 Hz)
+[usb_cam_node_exe-1] 	Motion-JPEG 1024 x 576 (30 Hz)
+[usb_cam_node_exe-1] 	Motion-JPEG 960 x 544 (30 Hz)
+[usb_cam_node_exe-1] 	Motion-JPEG 864 x 480 (30 Hz)
+[usb_cam_node_exe-1] 	Motion-JPEG 848 x 480 (30 Hz)
+[usb_cam_node_exe-1] 	Motion-JPEG 800 x 448 (30 Hz)
+[usb_cam_node_exe-1] 	Motion-JPEG 640 x 360 (30 Hz)
+[usb_cam_node_exe-1] 	Motion-JPEG 352 x 288 (30 Hz)
+[usb_cam_node_exe-1] 	Motion-JPEG 320 x 240 (30 Hz)
+[usb_cam_node_exe-1] 	Motion-JPEG 1920 x 1080 (30 Hz)
+[usb_cam_node_exe-1] 	YUYV 4:2:2 640 x 480 (30 Hz)
+[usb_cam_node_exe-1] 	YUYV 4:2:2 1600 x 896 (5 Hz)
+[usb_cam_node_exe-1] 	YUYV 4:2:2 1280 x 720 (10 Hz)
+[usb_cam_node_exe-1] 	YUYV 4:2:2 1024 x 768 (10 Hz)
+[usb_cam_node_exe-1] 	YUYV 4:2:2 1024 x 576 (10 Hz)
+[usb_cam_node_exe-1] 	YUYV 4:2:2 960 x 544 (10 Hz)
+[usb_cam_node_exe-1] 	YUYV 4:2:2 864 x 480 (10 Hz)
+[usb_cam_node_exe-1] 	YUYV 4:2:2 848 x 480 (10 Hz)
+[usb_cam_node_exe-1] 	YUYV 4:2:2 800 x 448 (10 Hz)
+[usb_cam_node_exe-1] 	YUYV 4:2:2 640 x 360 (30 Hz)
+[usb_cam_node_exe-1] 	YUYV 4:2:2 352 x 288 (30 Hz)
+[usb_cam_node_exe-1] 	YUYV 4:2:2 320 x 240 (30 Hz)
+[usb_cam_node_exe-1] 	YUYV 4:2:2 1920 x 1080 (5 Hz)
+[usb_cam_node_exe-1] terminate called after throwing an instance of 'char*'
+[ERROR] [usb_cam_node_exe-1]: process has died [pid 1754682, exit code -6, cmd '/opt/ros/jazzy/lib/usb_cam/usb_cam_node_exe --ros-args -r __node:=tower_usb_cam --params-file /tmp/launch_params_pozsj2bt -r /image_raw:=/camera/tower_camera'].
+(lab_venv) yuanjian@rasp5-hobbs:~$ 

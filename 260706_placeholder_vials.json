@@ -1,5 +1,4 @@
 {
-  "_note": "Placeholder vials for DRY-RUN (action=test) inventory testing only. No real chemicals mixed. Add these objects into the 'vials' array of electrolyte_inventory.json.",
   "placeholder_vials": [
     {
       "capacity_ul": 1500.0,

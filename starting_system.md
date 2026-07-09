@@ -23,13 +23,13 @@ ros2 launch battery_lab_bringup out_rasp.launch.py
 **SSH into rasp4** (assembly-arm camera + suction pump) — it's passwordless, so it connects directly:
 
 ```bash
-ssh rasp4 ros2 launch battery_lab_bringup rail_rasp.launch.py
+ros2 launch battery_lab_bringup rail_rasp.launch.py
 ```
 
 **SSH into rasp5** (Zaber rail at 40 mm/s + lookup camera + Sartorius dispenser):
 
 ```bash
-ssh rasp5 ros2 launch battery_lab_bringup board_rasp.launch.py
+ros2 launch battery_lab_bringup board_rasp.launch.py
 ```
 
 ## Step 2 — Start the main program
